@@ -28,24 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            gameScreen = new Panel();
             SuspendLayout();
-            // 
-            // gameScreen
-            // 
-            gameScreen.Dock = DockStyle.Fill;
-            gameScreen.Location = new Point(0, 0);
-            gameScreen.Name = "gameScreen";
-            gameScreen.Size = new Size(1536, 864);
-            gameScreen.TabIndex = 0;
             // 
             // OuputWindow
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.Inherit;
             BackColor = Color.FromArgb(21, 23, 45);
             ClientSize = new Size(1536, 864);
-            Controls.Add(gameScreen);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "OuputWindow";
             StartPosition = FormStartPosition.CenterScreen;
@@ -54,7 +43,5 @@
         }
 
         #endregion
-
-        private Panel gameScreen;
     }
 }
