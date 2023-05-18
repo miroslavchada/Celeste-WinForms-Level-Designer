@@ -35,8 +35,10 @@ public partial class OuputWindow : Form
 
         foreach (PictureBox block in gameScreen.Controls.OfType<PictureBox>())
         {
-            if (block.Name != "player") {
-                output.Add($"Terrain {block.Name} = new(" +
+            if (block.Name != "player")
+            {
+                output.Insert(1,
+                    $"Terrain {block.Name} = new(" +
                     $"{block.Left}, {block.Top}, " +
                     $"{block.Width}, {block.Height}, " +
                     $"0, 0, " +
@@ -46,14 +48,18 @@ public partial class OuputWindow : Form
                     $"{block.Parent.Name});");
 
 
-                if (block.Name.Contains("strawberry")) {
-                    if (strawberryArray == "strawberryArray = new Strawberry[] { ") {
+                if (block.Name.Contains("strawberry"))
+                {
+                    if (strawberryArray == "strawberryArray = new Strawberry[] { ")
+                    {
                         terrainArray += $"{block.Name}";
                     }
 
                     terrainArray += $", {block.Name}";
-                } else {
-                    if (terrainArray == "terrainArray = new Terrain[] { ") {
+                } else
+                {
+                    if (terrainArray == "terrainArray = new Terrain[] { ")
+                    {
                         terrainArray += $"{block.Name}";
                     }
 

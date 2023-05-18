@@ -29,9 +29,11 @@
         private void InitializeComponent()
         {
             gameScreen = new Panel();
+            pictureBox3 = new PictureBox();
             player = new PictureBox();
             pictureBox63 = new PictureBox();
             pictureBox62 = new PictureBox();
+            teleport1 = new PictureBox();
             pictureBox61 = new PictureBox();
             pictureBox60 = new PictureBox();
             pictureBox59 = new PictureBox();
@@ -72,10 +74,8 @@
             pictureBox23 = new PictureBox();
             pictureBox22 = new PictureBox();
             pictureBox21 = new PictureBox();
-            pictureBox19 = new PictureBox();
             pictureBox20 = new PictureBox();
             pictureBox18 = new PictureBox();
-            pictureBox17 = new PictureBox();
             pictureBox16 = new PictureBox();
             pictureBox15 = new PictureBox();
             pictureBox14 = new PictureBox();
@@ -88,10 +88,14 @@
             pictureBox7 = new PictureBox();
             pictureBox6 = new PictureBox();
             pictureBox1 = new PictureBox();
+            pictureBox19 = new PictureBox();
+            pictureBox17 = new PictureBox();
             gameScreen.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox63).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox62).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)teleport1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox61).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox60).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox59).BeginInit();
@@ -132,10 +136,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox22).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
@@ -148,13 +150,17 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
             SuspendLayout();
             // 
             // gameScreen
             // 
+            gameScreen.Controls.Add(pictureBox3);
             gameScreen.Controls.Add(player);
             gameScreen.Controls.Add(pictureBox63);
             gameScreen.Controls.Add(pictureBox62);
+            gameScreen.Controls.Add(teleport1);
             gameScreen.Controls.Add(pictureBox61);
             gameScreen.Controls.Add(pictureBox60);
             gameScreen.Controls.Add(pictureBox59);
@@ -195,11 +201,7 @@
             gameScreen.Controls.Add(pictureBox23);
             gameScreen.Controls.Add(pictureBox22);
             gameScreen.Controls.Add(pictureBox21);
-            gameScreen.Controls.Add(pictureBox19);
-            gameScreen.Controls.Add(pictureBox20);
             gameScreen.Controls.Add(pictureBox18);
-            gameScreen.Controls.Add(pictureBox17);
-            gameScreen.Controls.Add(pictureBox16);
             gameScreen.Controls.Add(pictureBox15);
             gameScreen.Controls.Add(pictureBox14);
             gameScreen.Controls.Add(pictureBox13);
@@ -211,12 +213,27 @@
             gameScreen.Controls.Add(pictureBox7);
             gameScreen.Controls.Add(pictureBox6);
             gameScreen.Controls.Add(pictureBox1);
+            gameScreen.Controls.Add(pictureBox19);
+            gameScreen.Controls.Add(pictureBox17);
+            gameScreen.Controls.Add(pictureBox16);
+            gameScreen.Controls.Add(pictureBox20);
             gameScreen.Location = new Point(0, 0);
             gameScreen.Margin = new Padding(0);
             gameScreen.Name = "gameScreen";
             gameScreen.Size = new Size(1536, 864);
             gameScreen.TabIndex = 64;
             gameScreen.Tag = "1";
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.BackColor = Color.FromArgb(73, 51, 29);
+            pictureBox3.Location = new Point(468, 632);
+            pictureBox3.Margin = new Padding(0);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(40, 160);
+            pictureBox3.TabIndex = 141;
+            pictureBox3.TabStop = false;
+            pictureBox3.Tag = "";
             // 
             // player
             // 
@@ -240,8 +257,8 @@
             // 
             // pictureBox62
             // 
-            pictureBox62.BackColor = Color.FromArgb(99, 155, 255);
-            pictureBox62.Location = new Point(828, 512);
+            pictureBox62.BackColor = Color.FromArgb(119, 175, 255);
+            pictureBox62.Location = new Point(308, 32);
             pictureBox62.Margin = new Padding(0);
             pictureBox62.Name = "pictureBox62";
             pictureBox62.Size = new Size(40, 40);
@@ -249,9 +266,20 @@
             pictureBox62.TabStop = false;
             pictureBox62.Tag = "";
             // 
+            // teleport1
+            // 
+            teleport1.BackColor = Color.FromArgb(21, 23, 45);
+            teleport1.Location = new Point(1268, -8);
+            teleport1.Margin = new Padding(0);
+            teleport1.Name = "teleport1";
+            teleport1.Size = new Size(200, 1);
+            teleport1.TabIndex = 139;
+            teleport1.TabStop = false;
+            teleport1.Tag = "level2";
+            // 
             // pictureBox61
             // 
-            pictureBox61.BackColor = Color.SlateGray;
+            pictureBox61.BackColor = Color.FromArgb(98, 114, 130);
             pictureBox61.Location = new Point(788, 472);
             pictureBox61.Margin = new Padding(0);
             pictureBox61.Name = "pictureBox61";
@@ -284,7 +312,7 @@
             // 
             // pictureBox58
             // 
-            pictureBox58.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox58.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox58.Location = new Point(1508, 592);
             pictureBox58.Margin = new Padding(0);
             pictureBox58.Name = "pictureBox58";
@@ -295,7 +323,7 @@
             // 
             // pictureBox57
             // 
-            pictureBox57.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox57.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox57.Location = new Point(1468, 552);
             pictureBox57.Margin = new Padding(0);
             pictureBox57.Name = "pictureBox57";
@@ -405,7 +433,7 @@
             // 
             // pictureBox47
             // 
-            pictureBox47.BackColor = Color.SlateGray;
+            pictureBox47.BackColor = Color.FromArgb(108, 124, 140);
             pictureBox47.Location = new Point(228, 272);
             pictureBox47.Margin = new Padding(0);
             pictureBox47.Name = "pictureBox47";
@@ -416,7 +444,7 @@
             // 
             // pictureBox46
             // 
-            pictureBox46.BackColor = Color.SlateGray;
+            pictureBox46.BackColor = Color.FromArgb(98, 114, 130);
             pictureBox46.Location = new Point(348, 112);
             pictureBox46.Margin = new Padding(0);
             pictureBox46.Name = "pictureBox46";
@@ -427,7 +455,7 @@
             // 
             // pictureBox45
             // 
-            pictureBox45.BackColor = Color.SlateGray;
+            pictureBox45.BackColor = Color.FromArgb(98, 114, 130);
             pictureBox45.Location = new Point(228, 152);
             pictureBox45.Margin = new Padding(0);
             pictureBox45.Name = "pictureBox45";
@@ -493,7 +521,7 @@
             // 
             // pictureBox39
             // 
-            pictureBox39.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox39.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox39.Location = new Point(548, 112);
             pictureBox39.Margin = new Padding(0);
             pictureBox39.Name = "pictureBox39";
@@ -504,7 +532,7 @@
             // 
             // pictureBox38
             // 
-            pictureBox38.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox38.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox38.Location = new Point(588, 192);
             pictureBox38.Margin = new Padding(0);
             pictureBox38.Name = "pictureBox38";
@@ -515,7 +543,7 @@
             // 
             // pictureBox37
             // 
-            pictureBox37.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox37.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox37.Location = new Point(628, 112);
             pictureBox37.Margin = new Padding(0);
             pictureBox37.Name = "pictureBox37";
@@ -526,7 +554,7 @@
             // 
             // pictureBox36
             // 
-            pictureBox36.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox36.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox36.Location = new Point(668, 112);
             pictureBox36.Margin = new Padding(0);
             pictureBox36.Name = "pictureBox36";
@@ -537,7 +565,7 @@
             // 
             // pictureBox35
             // 
-            pictureBox35.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox35.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox35.Location = new Point(708, 72);
             pictureBox35.Margin = new Padding(0);
             pictureBox35.Name = "pictureBox35";
@@ -548,7 +576,7 @@
             // 
             // pictureBox34
             // 
-            pictureBox34.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox34.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox34.Location = new Point(748, 72);
             pictureBox34.Margin = new Padding(0);
             pictureBox34.Name = "pictureBox34";
@@ -570,7 +598,7 @@
             // 
             // pictureBox31
             // 
-            pictureBox31.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox31.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox31.Location = new Point(908, 32);
             pictureBox31.Margin = new Padding(0);
             pictureBox31.Name = "pictureBox31";
@@ -636,7 +664,7 @@
             // 
             // pictureBox25
             // 
-            pictureBox25.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox25.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox25.Location = new Point(1148, 792);
             pictureBox25.Margin = new Padding(0);
             pictureBox25.Name = "pictureBox25";
@@ -647,7 +675,7 @@
             // 
             // pictureBox24
             // 
-            pictureBox24.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox24.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox24.Location = new Point(1028, 752);
             pictureBox24.Margin = new Padding(0);
             pictureBox24.Name = "pictureBox24";
@@ -658,7 +686,7 @@
             // 
             // pictureBox23
             // 
-            pictureBox23.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox23.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox23.Location = new Point(1028, 712);
             pictureBox23.Margin = new Padding(0);
             pictureBox23.Name = "pictureBox23";
@@ -689,17 +717,6 @@
             pictureBox21.TabStop = false;
             pictureBox21.Tag = "collision ice";
             // 
-            // pictureBox19
-            // 
-            pictureBox19.BackColor = Color.SlateGray;
-            pictureBox19.Location = new Point(868, 392);
-            pictureBox19.Margin = new Padding(0);
-            pictureBox19.Name = "pictureBox19";
-            pictureBox19.Size = new Size(40, 120);
-            pictureBox19.TabIndex = 92;
-            pictureBox19.TabStop = false;
-            pictureBox19.Tag = "collision metal";
-            // 
             // pictureBox20
             // 
             pictureBox20.BackColor = Color.FromArgb(99, 155, 255);
@@ -713,7 +730,7 @@
             // 
             // pictureBox18
             // 
-            pictureBox18.BackColor = Color.SlateGray;
+            pictureBox18.BackColor = Color.FromArgb(108, 124, 140);
             pictureBox18.Location = new Point(788, 392);
             pictureBox18.Margin = new Padding(0);
             pictureBox18.Name = "pictureBox18";
@@ -721,17 +738,6 @@
             pictureBox18.TabIndex = 91;
             pictureBox18.TabStop = false;
             pictureBox18.Tag = "collision metal";
-            // 
-            // pictureBox17
-            // 
-            pictureBox17.BackColor = Color.SlateGray;
-            pictureBox17.Location = new Point(748, 392);
-            pictureBox17.Margin = new Padding(0);
-            pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(40, 160);
-            pictureBox17.TabIndex = 90;
-            pictureBox17.TabStop = false;
-            pictureBox17.Tag = "collision metal";
             // 
             // pictureBox16
             // 
@@ -757,7 +763,7 @@
             // 
             // pictureBox14
             // 
-            pictureBox14.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox14.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox14.Location = new Point(508, 712);
             pictureBox14.Margin = new Padding(0);
             pictureBox14.Name = "pictureBox14";
@@ -768,7 +774,7 @@
             // 
             // pictureBox13
             // 
-            pictureBox13.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox13.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox13.Location = new Point(508, 592);
             pictureBox13.Margin = new Padding(0);
             pictureBox13.Name = "pictureBox13";
@@ -779,7 +785,7 @@
             // 
             // pictureBox12
             // 
-            pictureBox12.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox12.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox12.Location = new Point(468, 592);
             pictureBox12.Margin = new Padding(0);
             pictureBox12.Name = "pictureBox12";
@@ -790,7 +796,7 @@
             // 
             // pictureBox11
             // 
-            pictureBox11.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox11.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox11.Location = new Point(428, 592);
             pictureBox11.Margin = new Padding(0);
             pictureBox11.Name = "pictureBox11";
@@ -801,7 +807,7 @@
             // 
             // pictureBox10
             // 
-            pictureBox10.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox10.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox10.Location = new Point(188, 792);
             pictureBox10.Margin = new Padding(0);
             pictureBox10.Name = "pictureBox10";
@@ -812,7 +818,7 @@
             // 
             // pictureBox9
             // 
-            pictureBox9.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox9.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox9.Location = new Point(188, 672);
             pictureBox9.Margin = new Padding(0);
             pictureBox9.Name = "pictureBox9";
@@ -823,7 +829,7 @@
             // 
             // pictureBox8
             // 
-            pictureBox8.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox8.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox8.Location = new Point(148, 672);
             pictureBox8.Margin = new Padding(0);
             pictureBox8.Name = "pictureBox8";
@@ -856,7 +862,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.FromArgb(217, 160, 102);
+            pictureBox1.BackColor = Color.FromArgb(160, 119, 77);
             pictureBox1.Location = new Point(68, 112);
             pictureBox1.Margin = new Padding(0);
             pictureBox1.Name = "pictureBox1";
@@ -864,6 +870,28 @@
             pictureBox1.TabIndex = 70;
             pictureBox1.TabStop = false;
             pictureBox1.Tag = "collision dirt";
+            // 
+            // pictureBox19
+            // 
+            pictureBox19.BackColor = Color.FromArgb(108, 124, 140);
+            pictureBox19.Location = new Point(868, 392);
+            pictureBox19.Margin = new Padding(0);
+            pictureBox19.Name = "pictureBox19";
+            pictureBox19.Size = new Size(40, 120);
+            pictureBox19.TabIndex = 92;
+            pictureBox19.TabStop = false;
+            pictureBox19.Tag = "collision metal";
+            // 
+            // pictureBox17
+            // 
+            pictureBox17.BackColor = Color.SlateGray;
+            pictureBox17.Location = new Point(748, 392);
+            pictureBox17.Margin = new Padding(0);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(40, 160);
+            pictureBox17.TabIndex = 90;
+            pictureBox17.TabStop = false;
+            pictureBox17.Tag = "collision metal";
             // 
             // OuputWindow
             // 
@@ -876,9 +904,11 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Celeste: WinForms Remake - Level Designer";
             gameScreen.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)player).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox63).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox62).EndInit();
+            ((System.ComponentModel.ISupportInitialize)teleport1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox61).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox60).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox59).EndInit();
@@ -919,10 +949,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox23).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox22).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
@@ -935,6 +963,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
             ResumeLayout(false);
         }
 
@@ -1000,5 +1030,7 @@
         private PictureBox pictureBox6;
         private PictureBox pictureBox1;
         private PictureBox player;
+        private PictureBox teleport1;
+        private PictureBox pictureBox3;
     }
 }
