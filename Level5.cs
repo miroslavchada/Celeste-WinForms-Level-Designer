@@ -1,6 +1,6 @@
 ﻿namespace Level_Designer;
-public partial class Level2 : UserControl {
-    public Level2() {
+public partial class Level5 : UserControl {
+    public Level5() {
         InitializeComponent();
     }
 }
