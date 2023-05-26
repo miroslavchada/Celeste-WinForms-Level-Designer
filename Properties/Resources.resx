@@ -130,4 +130,40 @@
   <data name="spikeD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spikeD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bellflower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bellflower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grass_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grass_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grass_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grass_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grass_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grass_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ben_back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ben_back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ben_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ben_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ben_door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ben_door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ben_front" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ben_front.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ben_sideL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ben_sideL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ben_sideR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ben_sideR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ben_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ben_table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ben_talking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ben_talking.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

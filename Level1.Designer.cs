@@ -117,6 +117,7 @@
             pictureBox7 = new PictureBox();
             pictureBox6 = new PictureBox();
             pictureBox1 = new PictureBox();
+            pictureBox92 = new PictureBox();
             gameScreen.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox91).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox90).BeginInit();
@@ -211,6 +212,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox92).BeginInit();
             SuspendLayout();
             // 
             // gameScreen
@@ -1341,10 +1343,19 @@
             pictureBox1.TabStop = false;
             pictureBox1.Tag = "collision dirt";
             // 
+            // pictureBox92
+            // 
+            pictureBox92.Location = new Point(0, 0);
+            pictureBox92.Name = "pictureBox92";
+            pictureBox92.Size = new Size(150, 75);
+            pictureBox92.TabIndex = 64;
+            pictureBox92.TabStop = false;
+            // 
             // Level1
             // 
             AutoScaleMode = AutoScaleMode.Inherit;
             BackColor = Color.FromArgb(21, 23, 45);
+            Controls.Add(pictureBox92);
             Controls.Add(gameScreen);
             Name = "Level1";
             Size = new Size(1536, 864);
@@ -1442,6 +1453,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox92).EndInit();
             ResumeLayout(false);
         }
 
@@ -1540,5 +1552,6 @@
         private PictureBox pictureBox89;
         private PictureBox pictureBox88;
         private PictureBox pictureBox91;
+        private PictureBox pictureBox92;
     }
 }
